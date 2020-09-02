@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.homepage         = "https://github.com/Pinterest/iOS-PDK"
   s.license          = 'MIT'
   s.author           = { "Ricky Cancro" => "ricky@pinterest.com", "Garrett Moon" => "garrett@pinterest.com" }
-  s.source           = { :git => "https://github.com/pinterest/ios-pdk.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/6DegreeLabs/ios-pdk.git", :tag => s.version.to_s }
 
   s.ios.deployment_target = '7.0'
   s.requires_arc = true
@@ -25,5 +25,6 @@ Pod::Spec.new do |s|
   s.weak_frameworks = 'SafariServices'
 
   s.source_files = 'Pod/Classes/*.{h,m}'
+  s.dependency = 'AFNetworking'
   s.dependency 'SAMKeychain'
 end
