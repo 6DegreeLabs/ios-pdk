@@ -25,6 +25,6 @@ Pod::Spec.new do |s|
   s.weak_frameworks = 'SafariServices'
 
   s.source_files = 'Pod/Classes/*.{h,m}'
-  s.dependency = 'AFNetworking'
+  s.dependency 'AFNetworking'
   s.dependency 'SAMKeychain'
 end
