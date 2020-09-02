@@ -26,6 +26,6 @@ Pod::Spec.new do |s|
 
   s.source_files = 'Pod/Classes/*.{h,m}'
 
-  s.dependency 'AFNetworking', :git => 'https://github.com/AFNetworking/AFNetworking', :commit => '80403c0df031fa0d6c80a94010c0d2ad870b633e'
+  s.dependency 'AFNetworking', '~> commit:80403c0df031fa0d6c80a94010c0d2ad870b633e'
   s.dependency 'SAMKeychain'
 end
